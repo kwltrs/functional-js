@@ -1,0 +1,13 @@
+{
+  "author": "Kristofer",
+  "name": "functional-js-spike",
+  "version": "0.0.0",
+  "dependencies": {},
+  "devDependencies": {
+    "buster": "~0.5.3"
+  },
+  "optionalDependencies": {},
+  "engines": {
+    "node": "*"
+  }
+}
