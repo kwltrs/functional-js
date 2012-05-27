@@ -11,7 +11,7 @@ var webels = (function() {
     namespace.func = function(name) {
         return function(obj) {
             if (typeof obj[name] === "function") {
-                return obj[name].apply(this);
+                return obj[name].apply(obj);
             }
         };
     };
